@@ -1,0 +1,38 @@
+.carousel-item img{
+    height: 80vh;
+   min-width: 10vw;
+   width: 70vw;
+   
+}
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-inner img{
+    display:inline-block  !important;
+    }
+
+.panel{
+    background-color: black;
+    opacity: 1;
+}
+footer {
+    background-color: #666;
+    color: white;
+  }
+  
+  footer {
+    color: white;
+    font-size: 50px;
+    z-index: 0;
+  }
+  
+  footer .logo {
+    padding: 1vw;
+    font-size: 2vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+  }
+
+
