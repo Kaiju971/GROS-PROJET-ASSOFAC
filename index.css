@@ -16,6 +16,13 @@
     background-color: black;
     opacity: 1;
 }
+.grid-container{
+  background-image: url(./Manette\ xbox\ 360\ !.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw ;
+  display: grid;
+  grid-template-columns: 20% repeat(2,40%);
+} 
 footer {
     background-color: #41668a;
     color: white;

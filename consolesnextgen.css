@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    
+    height: 100vh;
+}
+header {
+    background-color: #41668a;
+    color: white;
+    padding: 1vw;
+    font-size: 2vw;
+    font-weight: 900; 
+  }
+
+  footer{
+        background-color: #41668a;
+        color: white;
+        padding: 1vw;
+        font-size: 2vw;
+        font-weight: 900;
+        text-align: center;
+        flex: 0 0 auto;
+      }
