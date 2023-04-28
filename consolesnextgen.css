@@ -14,6 +14,85 @@ header {
     font-weight: 900; 
   }
 
+  .grid-container{
+    background-image: url(./Manette\ xbox\ 360\ !.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+    display: grid;
+    grid-template-columns: 20% repeat(2,40%);
+  } 
+  .grid-container .col21{
+    background-image: url("./PlayStation®5\ Play\ Has\ No\ Limits\ PlayStation.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 70vh;
+    justify-self: end;
+  }
+  .grid-container .col22{
+    background-image: url("./Decoding\ Illuminati\ Symbolism\ Saturn\ and\ the\ Black\ Cube\ -\ IlluminatiWatcher.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 70vh;
+    justify-self: start;
+  }
+  
+  .grid-container .col31{
+    background-image: url("./Xbox\ \(1st\ Gen\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px;
+  }
+  
+  .grid-container .col32{
+    background-image: url("./The\ History\ of\ the\ Xbox\ Digital\ Trends.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px;
+  }
+  .grid-container .col42{
+    background-image: url("./The\ Future\ of\ Game\ Consoles\ Will\ Be\ No\ Console.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px;
+  }
+  .grid-container .col41{
+    background-image: url("./The\ Death\ of\ Nintendo\ Wii\ —\ Came\ in\ Like\ a\ Lion\,\ Went\ Out\ Like\ a\ Lamb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px; 
+  }
+  .grid-container .col51{
+    background-image: url("./Sony\ PlayStation\ 4\,\ 500GB\ Slim\ System\,\ Black\ -\ Walmart_com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px;
+  }
+  .grid-container .col52{
+    background-image: url("./Xbone\ Microsoft\ buys\ domain\ for\ Xbox\ One\ nickname\ it\ hates.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    justify-self: end;
+    margin-top: 10px;
+  } 
   footer{
         background-color: #41668a;
         color: white;
