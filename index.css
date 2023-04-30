@@ -21,7 +21,8 @@
   background-repeat: no-repeat;
   background-size: 100vw ;
   display: grid;
-  grid-template-columns: 20% repeat(2,40%);
+  /* grid-template-columns: 20% repeat(2,40%); */
+  color: white;
 } 
 footer {
     background-color: #41668a;
@@ -42,7 +43,7 @@ footer {
     text-align: center;
   }
   .grid-container .col21{
-    background-image: url("./gamersassembly.jpg");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
@@ -50,7 +51,7 @@ footer {
     justify-self: end;
   }
   .grid-container .col22{
-    background-image: url("./esports.jpg");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
@@ -59,7 +60,7 @@ footer {
   }
   
   .grid-container .col31{
-    background-image: url("./VR.jpg");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -79,7 +80,7 @@ footer {
     margin-top: 10px;
   }
   .grid-container .col42{
-    background-image: url("./collectionner.jpg");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -98,7 +99,7 @@ footer {
     padding-right: 10vw;  
   }
   .grid-container .col51{
-    background-image: url("./collectiongaming.jpg");
+    background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
