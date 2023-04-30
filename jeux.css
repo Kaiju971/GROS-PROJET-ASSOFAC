@@ -20,8 +20,8 @@ header {
     display: grid;
     grid-template-columns: 20% repeat(2,40%);
   } 
-  .grid-container .col21{
-    background-image: url("./gamersassembly.jpg");
+  .grid-container .col32{
+    background-image: url("./Dead\ By\ Daylight.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
