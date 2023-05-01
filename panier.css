@@ -1,11 +1,9 @@
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    
-    height: 100vh;
-}
+    background-image: url(./green.cyberpunk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 header {
     background-color: #41668a;
     color: white;
