@@ -14,7 +14,16 @@ header {
     font-size: 2vw;
     font-weight: 900; 
   }
-
+  .grid-container{
+    background-image: url(./Background\ Mario\ Wallpaper\ -\ EnWallpaper.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+    display: grid;
+    /* grid-template-columns: 20% repeat(2,40%); to break */
+    color: #28dca7;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  } 
   footer{
         background-color: #41668a;
         color: white;

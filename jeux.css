@@ -17,117 +17,99 @@ body{
   background-image: url("./");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50vw;
+  width: 30vw;
   height: 50vh;
-  justify-self: start;
+  justify-self: center;
 }
 .grid-container .col12{
   background-image: url("./");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 20vw;
-  height: 20vh;
+  width: 30vw;
+  height: 50vh;
   justify-self: center;
 }
 .grid-container .col13{
   background-image: url("./");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 20vw;
-  height: 20vh;
+  width: 30vw;
+  height: 50vh;
   justify-self: center;
 }
   .grid-container .col21{
     background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50vw;
-    height: 50vh;
-    justify-self: start;
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   .grid-container .col22{
     background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20vw;
-    height: 20vh;
+    width: 30vw;
+    height: 50vh;
     justify-self: center;
   }
   .grid-container .col23{
     background-image: url("./");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20vw;
-    height: 20vh;
+    width: 30vw;
+    height: 50vh;
     justify-self: center;
   }
   .grid-container .col31{
     background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    justify-self: start;
-    margin-top: 10px;
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   
   .grid-container .col32{
-    background-image: url("./3DO.png");
-    /* background-color: white; */
-    /* text-align:justify;
-    width: 100%;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 70vh;
-    margin-top: 10px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
+    background-image: url("./");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   .grid-container .col33{
-    background-image: url("./Xbox\ \(1st\ Gen\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
+    background-image: url("./");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   .grid-container .col41{
-    /* background-image: url("./"); pas d'image */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    /* justify-self: start; */
-  }
+    background-image: url("./");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   .grid-container .col42{
-    background-image: url("./jeux-ps4.jpg");
-    text-align: center; color: #e9e9e9;
-    /* padding-top: 10vh;
-    background-color: #808080;
-    height: 70vh;
-    width: 100%;
-    text-align:justify;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;   */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
+    background-image: url("./");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   .grid-container .col43{
-    background-image: url("./2600s.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
+    background-image: url("./");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+  height: 50vh;
+  justify-self: center;
+}
   /* .grid-container .col52{
     background-color: white;
     text-align: center;
