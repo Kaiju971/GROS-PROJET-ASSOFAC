@@ -121,15 +121,12 @@ body{
     padding-right: 10vw;
     height: 70vh;
   }  */
-  footer {
-    background-color: #41668a;
-    color: white;
-  }
   
+
   footer {
     color: white;
+    background-color: #41668a;
     font-size: 50px;
-    z-index: 0;
   }
   
   footer .logo {

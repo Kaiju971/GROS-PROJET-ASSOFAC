@@ -3,8 +3,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    
     height: 100vh;
+}
+.navbar{
+  border: solid #41668a;
+  background-color:  #41668a;
+  font-size: 20px;
 }
 header {
     background-color: #41668a;

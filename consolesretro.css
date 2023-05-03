@@ -1,148 +1,51 @@
+html, body{
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  border: solid #41668a;
+  background-color:  #41668a;
+  font-size: 20px;
+}
+
+ .flex-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+} 
+
 .grid-container{
-  background-image: url(./are\ you\ player.jpg);
+  
+  padding-top: 5%;
+  padding-bottom: 15%;
+  background-image: url(./ocean.jpg); 
   background-repeat: no-repeat;
-  background-size: 100vw ;
+  background-size:cover;
   display: grid;
-  /* grid-template-columns: 20% repeat(2,40%); break */
-  color: rgb(162, 104, 202);
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-columns: 20% repeat(2,40%); to break */
+  color: #28dca7;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5%;
+  
 } 
 .grid-container .col11{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50vw;
-  height: 50vh;
-  justify-self: start;
-}
-.grid-container .col12{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 20vw;
-  height: 20vh;
-  justify-self: center;
+  height: 30vh;
 }
-.grid-container .col13{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20vw;
-  height: 20vh;
-  justify-self: center;
-}
-  .grid-container .col21{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50vw;
-    height: 50vh;
-    justify-self: start;
-  }
-  .grid-container .col22{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  .grid-container .col23{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  .grid-container .col31{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    justify-self: start;
-    margin-top: 10px;
-  }
-  
-  .grid-container .col32{
-    background-image: url("./3DO.png");
-    /* background-color: white; */
-    /* text-align:justify;
-    width: 100%;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 70vh;
-    margin-top: 10px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  .grid-container .col33{
-    background-image: url("./Xbox\ \(1st\ Gen\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  .grid-container .col41{
-    /* background-image: url("./"); pas d'image */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    /* justify-self: start; */
-  }
-  .grid-container .col42{
-    background-image: url("./jeux-ps4.jpg");
-    text-align: center; color: #e9e9e9;
-    /* padding-top: 10vh;
-    background-color: #808080;
-    height: 70vh;
-    width: 100%;
-    text-align:justify;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;   */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  .grid-container .col43{
-    background-image: url("./2600s.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 20vh;
-    justify-self: center;
-  }
-  /* .grid-container .col52{
-    background-color: white;
-    text-align: center;
-    padding-top: 10vh;
-    background-color: white;
-    text-align:justify;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 70vh;
-  }  */
-  footer {
-    background-color: #41668a;
-    color: white;
-  }
+
+
   
   footer {
     color: white;
     font-size: 50px;
-    z-index: 0;
+    background-color: #41668a;
+    /* flex: 0 0 auto; */
+
   }
   
   footer .logo {
