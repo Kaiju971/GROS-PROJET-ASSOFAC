@@ -70,9 +70,49 @@
           </div>
           </div>
         </nav>
+        
       </header>
-
-        <footer>
+      
+        <h1>Contact</h1>
+        <form>
+          <div class="p-3 m-0 border-0 sel">
+            <label for="my selection" class="form-label">Votre demande concerne</label>
+            <select class="form-select" aria-label="my selection">
+              <option selected="">--Sélectionner--</option>
+              <option value="1">Jeux</option>
+              <option value="2">Consoles</option>
+              <option value="3">Autre</option>
+            </select>
+          </div>
+          <div class="p-3 m-0 border-0 sel">
+            <label for="my selection titre" class="form-label">Civilité</label>
+            <select class="form-select" aria-label="my selection titre">
+              <option selected="">--Sélectionner--</option>
+              <option value="1">Monsieur</option>
+              <option value="2">Madame</option>
+            </select>
+          </div>
+          <div class="p-3 mb-3">
+            <label for="pseudo" class="form-label">Pseudo</label>
+            <input type="pseudo" class="form-control" id="pseudo" aria-describedby="pseudo">
+          </div>
+          <div class="p-3 mb-3">
+            <label for="exampleInputEmail1" class="form-label">adresse mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Votre adresse ne sera pas partagé à des fins commercial</div>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">se souvenir de moi</label>
+          </div>
+          <div class="mb-3">
+            <label for="requête" class="form-label">Requête</label>
+            <textarea class="form-control" id="Requête" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">Submit</button>
+        
+      </form>
+       <footer>
   
             <div class="social-links d-flex justify-content-center">
              <a href = "#"

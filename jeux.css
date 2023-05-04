@@ -2,6 +2,12 @@ body{
   background-image: url(./GraphicLab\ Tees.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 8%;
+}
+.navbar{
+  border: solid #41668a;
+  background-color:  #41668a;
+  font-size: 20px;
 }
 .grid-container{
   /* background-image: url(./are\ you\ player.jpg); */

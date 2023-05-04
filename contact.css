@@ -4,26 +4,49 @@ body{
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+  padding-bottom: 15%;
+  background-size:cover;
+  background-image: url(./Premium\ Photo\ Cyberpunk\ gaming\ controller\ gamepad\ joystick\ illustration.jpg) ;
+  color: white;
 }
 .navbar{
   border: solid #41668a;
   background-color:  #41668a;
   font-size: 20px;
 }
-header {
+
+form{
+  padding-left: 10%;
+  padding-right: 10%;
+ background-image: url(./Premium\ Photo\ Cyberpunk\ gaming\ controller\ gamepad\ joystick\ illustration.jpg);
+ background-repeat: no-repeat;
+ text-align:center ; color:white;
+ background-size:cover;
+ padding-bottom: 2%;
+}
+  footer {
     background-color: #41668a;
     color: white;
+  }
+  
+  footer {
+    color: white;
+    font-size: 50px;
+    z-index: 0;
+  }
+  
+  footer .logo {
     padding: 1vw;
     font-size: 2vw;
-    font-weight: 900; 
+    font-weight: 900;
+    color: white;
+    text-align: center;
   }
 
-  footer{
-        background-color: #41668a;
-        color: white;
-        padding: 1vw;
-        font-size: 2vw;
-        font-weight: 900;
-        text-align: center;
-        flex: 0 0 auto;
-      }
+  form select{
+    width: 98%;
+    background-color: white;
+    
+  }

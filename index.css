@@ -1,3 +1,9 @@
+.navbar{
+  background-color: #41668a;
+}
+.carousel{
+  padding-top: 6%;
+}
 .carousel-item img{
     height: 80vh;
    min-width: 10vw;
@@ -20,7 +26,12 @@
   background: rgba(16, 13, 19, 0.13);
   color :#28dca7; 
 }
-
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
 .grid-container{
   background-image: url(./are\ you\ player.jpg); 
   background-repeat: no-repeat;
@@ -30,133 +41,19 @@
   color: #28dca7;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  text-align: center;
 } 
 .grid-container .col11{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 50vw;
   height: 50vh;
-  justify-self: start;
-}
-.grid-container .col12{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20vw;
-  height: 30vh;
-  justify-self: center;
-}
-.grid-container .col13{
-  background-image: url("./");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20vw;
-  height: 30vh;
-  justify-self: center;
 }
   .grid-container .col21{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
+    text-align: center;
     width: 50vw;
     height: 50vh;
-    justify-self: start;
   }
-  .grid-container .col22{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  .grid-container .col23{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  .grid-container .col31{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    justify-self: start;
-    margin-top: 10px;
-  }
+
   
-  .grid-container .col32{
-    background-image: url("./");
-    /* background-color: white; */
-    /* text-align:justify;
-    width: 100%;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 70vh;
-    margin-top: 10px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  .grid-container .col33{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  .grid-container .col41{
-    /* background-image: url("./"); pas d'image */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    /* justify-self: start; */
-  }
-  .grid-container .col42{
-    background-image: url("./");
-    text-align: center; color: #e9e9e9;
-    /* padding-top: 10vh;
-    background-color: #808080;
-    height: 70vh;
-    width: 100%;
-    text-align:justify;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;   */
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  .grid-container .col43{
-    background-image: url("./");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 20vw;
-    height: 30vh;
-    justify-self: center;
-  }
-  /* .grid-container .col52{
-    background-color: white;
-    text-align: center;
-    padding-top: 10vh;
-    background-color: white;
-    text-align:justify;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    height: 70vh;
-  }  */
   footer {
     background-color: #41668a;
     color: white;

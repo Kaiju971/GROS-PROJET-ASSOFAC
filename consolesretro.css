@@ -20,7 +20,7 @@ html, body{
 
 .grid-container{
   
-  padding-top: 5%;
+  padding-top: 7%;
   padding-bottom: 15%;
   background-image: url(./ocean.jpg); 
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ html, body{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 5%;
-  
+  text-align: center;
 } 
 .grid-container .col11{
   width: 20vw;

@@ -3,11 +3,12 @@
   border: solid #41668a;
   background-color:  #41668a;
   font-size: 20px;
+  padding-top: 1%;
 }
 .grid-container{
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 15%;
-  background-image: url(./); 
+  background-image: url(./sea.png); 
   background-repeat: no-repeat;
   background-size:cover;
   display: grid;
@@ -16,9 +17,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 5%;
+  text-align: center;
 } 
 .grid-container .col11{
-  width: 20vw;
+  width: 30vw;
   height: 30vh;
 }
 
