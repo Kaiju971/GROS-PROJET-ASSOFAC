@@ -1,40 +1,46 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    
-    height: 100vh;
-}
+
 .navbar{
   border: solid #41668a;
   background-color:  #41668a;
   font-size: 20px;
 }
-header {
-    background-color: #41668a;
-    color: white;
-    padding: 1vw;
-    font-size: 2vw;
-    font-weight: 900; 
-  }
-  .grid-container{
-    background-image: url(./Background\ Mario\ Wallpaper\ -\ EnWallpaper.jpg); 
-    background-repeat: no-repeat;
-    background-size: 100vw ;
-    display: grid;
-    /* grid-template-columns: 20% repeat(2,40%); to break */
-    color: #28dca7;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  } 
-  footer{
+.grid-container{
+  padding-top: 10%;
+  padding-bottom: 15%;
+  background-image: url(./Background\ Mario\ Wallpaper\ -\ EnWallpaper.jpg); 
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: grid;
+  /* grid-template-columns: 20% repeat(2,40%); to break */
+  color: #28dca7;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5%;
+  text-align: center;
+} 
+.grid-container .text-header{
+grid-column: 1/span 2;
+}
+.grid-container .col11{
+  width: 50vw;
+  height: 50vh;
+}
+      footer {
         background-color: #41668a;
         color: white;
+      }
+      
+      footer {
+        color: white;
+        font-size: 50px;
+        z-index: 0;
+      }
+      
+      footer .logo {
         padding: 1vw;
         font-size: 2vw;
         font-weight: 900;
+        color: white;
         text-align: center;
-        flex: 0 0 auto;
+      
       }
-    

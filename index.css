@@ -26,6 +26,12 @@
   background: rgba(16, 13, 19, 0.13);
   color :#28dca7; 
 }
+.nav-link{
+  color:#28dca7;
+}
+.nav-item{
+  color:#28dca7;
+}
 .flex-container{
   display: flex;
   flex-direction: column;
