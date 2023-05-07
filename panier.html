@@ -18,8 +18,8 @@
         crossorigin="anonymous"
       ></script>
       <script src="https://kit.fontawesome.com/f6b2d7d8bd.js" crossorigin="anonymous"></script>
-      <link type="text/css" rel="stylesheet" href="contact.css" />
-      <link type="text/js" rel="stylesheet" href="index.js" />
+      <link type="text/css" rel="stylesheet" href="panier.css" />
+      
     </head>
     <body>
       <header>
@@ -70,15 +70,37 @@
           </div>
           </div>
         </nav>
-        <body class="cart-open">
-          <main>
-  
-          </main>
-          <aside>
-              <header>
-                  <h2>Mon panier</h2>
-                  <p id="cart-total-price">Total : 59 $</p>
-      </header>
+      </body>
+      <section  class="container">
+        <article class="well form-inline pull-left col-lg-5">
+            <legend>Gestion du panier</legend>
+            <label class="col-lg-3">Identifiant</label> : <input type = "number" id = "id" style="width:120px" class="input-sm form-control"></input><br><br>
+            <label class="col-lg-3" >Quantité</label> : <input type = "number" id = "qte" style="width:120px" class="input-sm form-control"></input><br><br> 
+            <label class="col-lg-3">Prix</label> : <input type = "number" id = "prix" style="width:120px" class="input-sm form-control"></input><br><br>
+            <button class="btn btn-primary" type="submit" onclick="ajouter()"><span class="glyphicon glyphicon-shopping-cart"></span> Ajouter au panier</button>
+        </article>
+    </section>
+    <section class="container">
+        <article class="well form-inline pull-left col-lg-5">
+            <legend>Contenu du panier</legend>
+            <table id="tableau" class="table">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Qte</th>
+                        <th>Prix unitaire</th>
+                        <th>Prix de la ligne</th>
+                        <th>Supprimer</th>
+                    </tr>
+                </thead>
+            </table>
+            <br><label>Prix du panier total</label> : <label id = "prixTotal"></label>
+            <label id = "nbreLignes" hidden>0</label>
+        </article>
+    </section>   
+      
+    </header>     
+      
       
         <footer>
           <a class="btn btn-cart-back" href="">Continuer mes achats</a>
@@ -102,12 +124,11 @@
                <i class = "fa fa-envelope"; style="padding-right: 4vw; color: white;" ></i>  
              </a>
             </div>
-            <div class = 'logo'><strong> 
+            <div class = 'logo'>
               <img src="./Scary Skull green gaming logo(1).gif" type="video/mp4" width="60" height="60" alt="">
             </div>
             
           </footer>
-        </aside>
-        <script type="module" src="assets/javascript/main.js"></script>
+        
            </body>
           </html>
