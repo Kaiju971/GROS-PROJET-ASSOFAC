@@ -294,7 +294,10 @@ body{
     .grid-container .col11{
       width: 90vw;
       height: 25vh;
-
+      text-align:justify;
+      padding-top: 10vh;
+      padding-left: 30vw;
+      padding-right: 30vw; 
     }
     .grid-container .col21{
       justify-self: center; 
@@ -304,5 +307,8 @@ body{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+  
     }
+
   }
+

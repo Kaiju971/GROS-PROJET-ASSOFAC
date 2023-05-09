@@ -1,7 +1,8 @@
-/* body{
+ body{
+  color: yellow;
     background-image: url(./green.cyberpunk.png);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     padding-top: 10%;
   }
   .navbar{
