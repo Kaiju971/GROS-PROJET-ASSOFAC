@@ -93,15 +93,20 @@
     }
     .grid-container{
       grid-template-columns: 1fr;
-      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%); 
+      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%);
+      background-image: url(./are\ you\ player.jpg); 
+      background-repeat: no-repeat; 
+      background-size: 100vh 100vw ;
+      background-size: cover;
+      display: grid;
     }
     .grid-container .text-header{
       grid-column: 1; 
     }
     .grid-container .col11{
-      justify-self: center;
+      -ms-text-size-adjust: right;
     }
     .grid-container .col21{
-      justify-self: center; 
+      justify-self: left; 
     }
   }

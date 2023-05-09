@@ -1,5 +1,6 @@
 //sauvegarde du panier dans le dossier local//
 function saveBasket(basket){
+  console.log("save "+product);
     localStorage.setItem("basket",JSON.stringify(basket));
 }
 
@@ -15,7 +16,7 @@ function getBasket(){
 
 //ajout d'article dans le panier + sauvegardde du panier//
 function addBasket(product){
-    console.log("je suis ici"+product);
+    console.log("add "+product);
     let basket = getBasket();
     let foundProduct = basket.find(p=> p.id == product.id);
     if(foundProduct != undefined){
@@ -67,9 +68,12 @@ function getTotalPrice(){
     }
     return total;
 }
-
+const addToBasket = (prod) =>{
+  alert(prod);
+}
     let listArea = document.querySelector("#consolesretroContainer");
     var prod = "";
+    let buttons = [];
     let cell = `<div ><h1>La page Des Consoles RETRO</h1> </div>`;
       const list = ([["Atari2600","./2600s.jpg"],
       ["Intellivision","./intellivision.png"]
@@ -86,12 +90,12 @@ function getTotalPrice(){
       ["SEGA Saturn","./Saturn.png"],
       ["NINTENDO 64","./nintendo64.jpg"],
       ["SEGA Dreamcast","./dreamcast.jpg"]]);
-      list.forEach((element) => (
-        
+
+      list.forEach((element,index) => ( 
         cell = `${cell} 
         <div>${element[0]}
         <img src = ${element[1]} class="img-fluid rounded float-start col11"/>
-        <button id = "buttonclick" onclick=addToBasket(${})>
+        <button id = "buttonclick${index}">
           <span class="box">
             529.99€ Ajouter au panier
           <div class="star-1">
@@ -119,8 +123,10 @@ function getTotalPrice(){
 
     listArea.innerHTML = cell;
 
-    // let imageToBasket = document.querySelector("#buttonclick");
-    // imageToBasket.addEventListener("click", alert("test"));
-    const addToBasket = (prod) =>{
-      alert(prod);
-    }
+    list.forEach((element,index) => {
+      let myButton = buttons[index];
+      myButton = document.querySelector("#buttonclick" + index);
+      myButton.addEventListener("click", () => addBasket(element[0]));
+    })
+
+   

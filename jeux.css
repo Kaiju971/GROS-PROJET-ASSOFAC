@@ -31,6 +31,11 @@ body{
   text-align: center;
   gap: 5%;
 } 
+.grid-cell{
+  display: block;
+}
+
+
 .grid-container .col11{
   background-image: url("./");
   background-repeat: no-repeat;
@@ -278,15 +283,26 @@ body{
     }
     .grid-container{
       grid-template-columns: 1fr;
-      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%); 
+      grid-template-rows: repeat(12,8%); 
+      width:90%;
+      justify-content: center;
+
     }
     .grid-container .text-header{
       grid-column: 1; 
     }
     .grid-container .col11{
-      justify-self: center;
+      width: 90vw;
+      height: 25vh;
+
     }
     .grid-container .col21{
       justify-self: center; 
+    }
+
+    .grid-cell{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   }
