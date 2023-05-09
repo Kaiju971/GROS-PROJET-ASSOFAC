@@ -1,7 +1,8 @@
-body{
+/* body{
     background-image: url(./green.cyberpunk.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    padding-top: 10%;
   }
   .navbar{
     border: solid #41668a;
@@ -25,5 +26,15 @@ header {
         font-weight: 900;
         text-align: center;
         flex: 0 0 auto;
+      }
+      @media (max-width: 560px) {
+  
+      }
+    
+      @media (max-width: 760px) {
+        .navbar .navbar-nav .nav-item .nav-link {
+          font-size: 4vw;
+          text-align: right;
+        }
       }
       

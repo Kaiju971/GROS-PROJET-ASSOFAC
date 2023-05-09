@@ -6,8 +6,8 @@
 }
 
 form{
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
  background-image: url(./Premium\ Photo\ Cyberpunk\ gaming\ controller\ gamepad\ joystick\ illustration.jpg);
  background-repeat: no-repeat;
  text-align:center ; color:white;
@@ -34,4 +34,13 @@ form{
     text-align: center;
   
   }
+  @media (max-width: 560px) {
   
+  }
+
+  @media (max-width: 760px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 4vw;
+      text-align: right;
+    }
+  }

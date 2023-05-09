@@ -82,3 +82,26 @@
     background-color: gold;
   }
   
+  @media (max-width: 560px) {
+  
+  }
+
+  @media (max-width: 760px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      font-size: 4vw;
+      text-align: right;
+    }
+    .grid-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%); 
+    }
+    .grid-container .text-header{
+      grid-column: 1; 
+    }
+    .grid-container .col11{
+      justify-self: center;
+    }
+    .grid-container .col21{
+      justify-self: center; 
+    }
+  }
