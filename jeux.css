@@ -286,18 +286,19 @@ body{
       grid-template-rows: repeat(12,8%); 
       width:90%;
       justify-content: center;
-
+      gap: 0; 
     }
     .grid-container .text-header{
       grid-column: 1; 
     }
     .grid-container .col11{
-      width: 90vw;
-      height: 25vh;
+      width: 600px;
+      height: 300px;
       text-align:justify;
       padding-top: 10vh;
       padding-left: 30vw;
-      padding-right: 30vw; 
+      padding-right: 20vw;
+      
     }
     .grid-container .col21{
       justify-self: center; 
@@ -309,6 +310,10 @@ body{
       justify-content: space-between;
   
     }
+    .grid-container button{
+      text-align: center;
+margin-left: 10%;
 
+    }
   }
 

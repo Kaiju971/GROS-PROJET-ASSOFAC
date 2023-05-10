@@ -279,11 +279,17 @@ html, body{
     }
     .grid-container{
       grid-template-columns: 1fr;
-      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%); 
+      grid-template-rows: auto;
+      padding: 0;
+      gap: 0;
+      padding-top: 23%;
     }
     .grid-container .text-header{
       grid-column: 1; 
     }
     .grid-container .col11{
       justify-self: center;
+      width: 400px;
+      height: 300px;
     }
+  }

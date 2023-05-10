@@ -92,8 +92,8 @@
       text-align: right;
     }
     .grid-container{
-      grid-template-columns: 1fr;
-      grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%);
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
       background-image: url(./are\ you\ player.jpg); 
       background-repeat: no-repeat; 
       background-size: 100vh 100vw ;
@@ -108,5 +108,14 @@
     }
     .grid-container .col21{
       justify-self: left; 
+    }
+    .grid-container h1{
+      font-size: 18px;
+    }
+    .grid-container ul{
+      font-size: 12px;
+    }
+    .grid-container list2{
+     text-align: right;
     }
   }
