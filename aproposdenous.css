@@ -56,11 +56,15 @@ grid-column: 1/span 2;
         .grid-container{
           grid-template-columns: 1fr;
           grid-template-rows: 8% repeat(4,9%) 2% repeat(6,9%); 
+          margin-bottom: 70vh;
+          background-size:200vh;
+
         }
         .grid-container .text-header{
           grid-column: 1; 
         }
         .grid-container .col11{
+         
           justify-self: center;
         }
       }
